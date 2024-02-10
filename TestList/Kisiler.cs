@@ -8,28 +8,9 @@ namespace TestList
 {
 	class Kisiler
 	{
-		string ad;
-		string soyad;
-		string meslek;
-
-		public string ADI
-		{
-			get { return ad; }
-			set { ad = value; }
-		}
-
-		public string SOYADI
-		{
-			get { return soyad; }
-			set { soyad = value; }
-		}
-
-		public string MESLEKI
-		{
-			get { return meslek; }
-			set { meslek = value; }
-		}
-
+        public string ad { get; set; }
+        public string soyad { get; set; }
+        public string meslek { get; set; }
 
 	}
 }

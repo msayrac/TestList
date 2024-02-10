@@ -67,9 +67,6 @@ namespace TestList
 
 			}
 
-
-
-
 		}
 
 		private void button3_Click(object sender, EventArgs e)
@@ -78,15 +75,15 @@ namespace TestList
 
 			kisi.Add(new Kisiler()
 			{
-				ADI = "Ali",
-				SOYADI = "Çınar",
-				MESLEKI = "Öğretmen"
+				ad = "Ali",
+				soyad = "Çınar",
+				meslek = "Öğretmen"
 
 			});
 
-			foreach(Kisiler k in kisi)
+			foreach (Kisiler k in kisi)
 			{
-				listBox3.Items.Add(k.ADI + " " + k.SOYADI + " " + k.MESLEKI);
+				listBox3.Items.Add(k.ad + " " + k.soyad + " " + k.meslek);
 			}
 
 
